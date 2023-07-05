@@ -1,9 +1,10 @@
 package com.mcxtzhang.flowlayoutmanager.zuimei;
 
-import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * 介绍：最美首页 缩放 位移Card LayoutManager

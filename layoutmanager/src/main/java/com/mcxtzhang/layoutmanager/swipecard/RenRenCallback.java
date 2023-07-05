@@ -1,15 +1,16 @@
 package com.mcxtzhang.layoutmanager.swipecard;
 
-import android.graphics.Canvas;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.helper.ItemTouchHelper;
-import android.view.View;
-
-import java.util.List;
-
 import static com.mcxtzhang.layoutmanager.swipecard.CardConfig.MAX_SHOW_COUNT;
 import static com.mcxtzhang.layoutmanager.swipecard.CardConfig.SCALE_GAP;
 import static com.mcxtzhang.layoutmanager.swipecard.CardConfig.TRANS_Y_GAP;
+
+import android.graphics.Canvas;
+import android.view.View;
+
+import androidx.recyclerview.widget.ItemTouchHelper;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.List;
 
 /**
  * 介绍：人人影视效果的Callback

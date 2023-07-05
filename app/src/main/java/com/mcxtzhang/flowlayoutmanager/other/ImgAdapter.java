@@ -1,10 +1,11 @@
 package com.mcxtzhang.flowlayoutmanager.other;
 
 import android.content.Context;
-import android.support.annotation.DrawableRes;
-import android.support.v7.widget.RecyclerView;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+
+import androidx.annotation.DrawableRes;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.mcxtzhang.flowlayoutmanager.R;
 

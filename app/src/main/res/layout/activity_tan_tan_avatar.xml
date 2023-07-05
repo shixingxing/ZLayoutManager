@@ -6,9 +6,9 @@
     android:layout_height="match_parent"
     tools:context="com.mcxtzhang.flowlayoutmanager.avatar.TanTanAvatarActivity">
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorAccent"></android.support.v7.widget.RecyclerView>
+        android:background="@color/colorAccent"></androidx.recyclerview.widget.RecyclerView>
 </FrameLayout>

@@ -1,10 +1,13 @@
 package com.mcxtzhang.flowlayoutmanager.zuimei;
 
+import static com.mcxtzhang.flowlayoutmanager.swipecard.SwipeCardBean.initDatas;
+
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.widget.ImageView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.mcxtzhang.commonadapter.rv.CommonAdapter;
 import com.mcxtzhang.commonadapter.rv.ViewHolder;
@@ -14,8 +17,6 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import static com.mcxtzhang.flowlayoutmanager.swipecard.SwipeCardBean.initDatas;
 
 public class ScaleCardActivity extends AppCompatActivity {
     private RecyclerView mRv;

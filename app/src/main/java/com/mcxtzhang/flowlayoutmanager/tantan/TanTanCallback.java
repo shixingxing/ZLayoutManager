@@ -1,20 +1,21 @@
 package com.mcxtzhang.flowlayoutmanager.tantan;
 
+import static com.mcxtzhang.layoutmanager.swipecard.CardConfig.MAX_SHOW_COUNT;
+import static com.mcxtzhang.layoutmanager.swipecard.CardConfig.SCALE_GAP;
+import static com.mcxtzhang.layoutmanager.swipecard.CardConfig.TRANS_Y_GAP;
+
 import android.graphics.Canvas;
-import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.mcxtzhang.commonadapter.rv.ViewHolder;
 import com.mcxtzhang.flowlayoutmanager.R;
 import com.mcxtzhang.layoutmanager.swipecard.RenRenCallback;
 
 import java.util.List;
-
-import static com.mcxtzhang.layoutmanager.swipecard.CardConfig.MAX_SHOW_COUNT;
-import static com.mcxtzhang.layoutmanager.swipecard.CardConfig.SCALE_GAP;
-import static com.mcxtzhang.layoutmanager.swipecard.CardConfig.TRANS_Y_GAP;
 
 /**
  * 介绍：探探效果定制的Callback

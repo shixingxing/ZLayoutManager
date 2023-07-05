@@ -2,8 +2,9 @@ package com.mcxtzhang.flowlayoutmanager;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.mcxtzhang.flowlayoutmanager.avatar.TanTanAvatarActivity;
 import com.mcxtzhang.flowlayoutmanager.gallary.GalleryActivity;

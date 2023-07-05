@@ -1,12 +1,15 @@
 package com.mcxtzhang.flowlayoutmanager.gallary;
 
+import static com.mcxtzhang.flowlayoutmanager.swipecard.SwipeCardBean.initDatas;
+
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearSnapHelper;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.SnapHelper;
 import android.util.Log;
 import android.widget.ImageView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearSnapHelper;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.SnapHelper;
 
 import com.mcxtzhang.commonadapter.rv.CommonAdapter;
 import com.mcxtzhang.commonadapter.rv.ViewHolder;
@@ -15,8 +18,6 @@ import com.mcxtzhang.flowlayoutmanager.swipecard.SwipeCardBean;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
-
-import static com.mcxtzhang.flowlayoutmanager.swipecard.SwipeCardBean.initDatas;
 
 public class GalleryActivity extends AppCompatActivity {
     private RecyclerView mRv;

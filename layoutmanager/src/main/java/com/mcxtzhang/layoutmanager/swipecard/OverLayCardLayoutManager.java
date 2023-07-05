@@ -1,9 +1,10 @@
 package com.mcxtzhang.layoutmanager.swipecard;
 
-import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * 介绍：参考人人影视 最多排列四个
